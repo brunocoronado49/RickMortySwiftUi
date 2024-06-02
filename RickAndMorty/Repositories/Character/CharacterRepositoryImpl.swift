@@ -32,7 +32,7 @@ class CharacterRepositoryImpl: CharacterRespository {
     
     func getCharacterDetail(id: Int) -> AnyPublisher<Character, any Error> {
         return remoteDataSource.getCharacterDetail(id: id).map { serverCharacter -> Character in
-            var character = serverCharacter.convertToEntity()
+            let character = serverCharacter.convertToEntity()
             
             return character
         }

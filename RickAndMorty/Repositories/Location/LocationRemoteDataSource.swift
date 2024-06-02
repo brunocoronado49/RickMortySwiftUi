@@ -36,8 +36,20 @@ class LocationRemoteDataSource {
 
 extension LocationRemoteDataSource {
     func getLocationEndpoint(page: Int) -> URLRequest {
+        let endpoint = "\(baseUrlString)\(LocationRemoteDataSource.getLocationUrl)\(LocationRemoteDataSource.getPage)\(page)"
+        
+        let components = URLComponents(string: endpoint)
+        let urlRequest = URLRequest(url: (components?.url!)!)
+        
+        return urlRequest
     }
     
     func getLocationDetailEndpoint(id: Int) -> URLRequest {
+        let endpoint = "\(baseUrlString)\(LocationRemoteDataSource.getLocationUrl)\(id)"
+        
+        let components = URLComponents(string: endpoint)
+        let urlRequest = URLRequest(url: (components?.url!)!)
+        
+        return urlRequest
     }
 }

@@ -32,9 +32,25 @@
 		D21DE3952C0847920033F379 /* EpisodeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21DE3942C0847920033F379 /* EpisodeRepositoryImpl.swift */; };
 		D241763C2C08F9460068567D /* ServerGetEpisodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241763B2C08F9450068567D /* ServerGetEpisodeResponse.swift */; };
 		D241763E2C0909E10068567D /* LocationRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241763D2C0909E10068567D /* LocationRemoteDataSource.swift */; };
+		D2D9D1F02C0A8CB900B580C2 /* CharacterDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1EF2C0A8CB900B580C2 /* CharacterDetailUseCase.swift */; };
+		D2D9D1F22C0A8D4800B580C2 /* EpisodeDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1F12C0A8D4800B580C2 /* EpisodeDetailUseCase.swift */; };
+		D2D9D1F42C0A8DE800B580C2 /* GetAllCharactersByIdUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1F32C0A8DE800B580C2 /* GetAllCharactersByIdUseCase.swift */; };
+		D2D9D1F62C0A8E5E00B580C2 /* GetAllCharactersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1F52C0A8E5E00B580C2 /* GetAllCharactersUseCase.swift */; };
+		D2D9D1F82C0A8EC100B580C2 /* GetEpisodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1F72C0A8EC100B580C2 /* GetEpisodeUseCase.swift */; };
+		D2D9D1FA2C0A8F1800B580C2 /* GetLocationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1F92C0A8F1800B580C2 /* GetLocationUseCase.swift */; };
+		D2D9D1FC2C0A8F7000B580C2 /* LocationDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1FB2C0A8F7000B580C2 /* LocationDetailUseCase.swift */; };
+		D2D9D2002C0A900800B580C2 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D1FF2C0A900800B580C2 /* CharacterDetailView.swift */; };
+		D2D9D2022C0A93CE00B580C2 /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D2012C0A93CE00B580C2 /* CharacterDetailViewModel.swift */; };
+		D2D9D2052C0A9A6B00B580C2 /* RenderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D2042C0A9A6B00B580C2 /* RenderImage.swift */; };
+		D2D9D2082C0AADD500B580C2 /* ProgressViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D2072C0AADD500B580C2 /* ProgressViewView.swift */; };
+		D2D9D20B2C0AB3B300B580C2 /* CharacterDetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9D20A2C0AB3B300B580C2 /* CharacterDetailItemView.swift */; };
 		D2D9E1632C07A48E004934AD /* CharacterRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9E1622C07A48E004934AD /* CharacterRespository.swift */; };
 		D2D9E1652C07A5CA004934AD /* CharacterRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9E1642C07A5CA004934AD /* CharacterRepositoryImpl.swift */; };
 		D2D9E1672C07B061004934AD /* EpisodeRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9E1662C07B061004934AD /* EpisodeRemoteDataSource.swift */; };
+		D2E356EA2C0AF6D300456812 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E356E92C0AF6D300456812 /* CharacterListViewModel.swift */; };
+		D2E356EC2C0AFBF900456812 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E356EB2C0AFBF900456812 /* CharacterListView.swift */; };
+		D2FBA4702C094C2300C3A66C /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBA46F2C094C2300C3A66C /* LocationRepository.swift */; };
+		D2FBA4722C094C8700C3A66C /* LocationRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBA4712C094C8700C3A66C /* LocationRepositoryImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,9 +80,25 @@
 		D21DE3942C0847920033F379 /* EpisodeRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRepositoryImpl.swift; sourceTree = "<group>"; };
 		D241763B2C08F9450068567D /* ServerGetEpisodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerGetEpisodeResponse.swift; sourceTree = "<group>"; };
 		D241763D2C0909E10068567D /* LocationRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRemoteDataSource.swift; sourceTree = "<group>"; };
+		D2D9D1EF2C0A8CB900B580C2 /* CharacterDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1F12C0A8D4800B580C2 /* EpisodeDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1F32C0A8DE800B580C2 /* GetAllCharactersByIdUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersByIdUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1F52C0A8E5E00B580C2 /* GetAllCharactersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1F72C0A8EC100B580C2 /* GetEpisodeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEpisodeUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1F92C0A8F1800B580C2 /* GetLocationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1FB2C0A8F7000B580C2 /* LocationDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailUseCase.swift; sourceTree = "<group>"; };
+		D2D9D1FF2C0A900800B580C2 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		D2D9D2012C0A93CE00B580C2 /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		D2D9D2042C0A9A6B00B580C2 /* RenderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderImage.swift; sourceTree = "<group>"; };
+		D2D9D2072C0AADD500B580C2 /* ProgressViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewView.swift; sourceTree = "<group>"; };
+		D2D9D20A2C0AB3B300B580C2 /* CharacterDetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailItemView.swift; sourceTree = "<group>"; };
 		D2D9E1622C07A48E004934AD /* CharacterRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRespository.swift; sourceTree = "<group>"; };
 		D2D9E1642C07A5CA004934AD /* CharacterRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepositoryImpl.swift; sourceTree = "<group>"; };
 		D2D9E1662C07B061004934AD /* EpisodeRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRemoteDataSource.swift; sourceTree = "<group>"; };
+		D2E356E92C0AF6D300456812 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		D2E356EB2C0AFBF900456812 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		D2FBA46F2C094C2300C3A66C /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
+		D2FBA4712C094C8700C3A66C /* LocationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepositoryImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,16 +131,16 @@
 		D207D7212C06D24A00555E53 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				D207D7302C06D33500555E53 /* API */,
-				D207D7262C06D24D00555E53 /* Assets.xcassets */,
 				D207D7372C06D38A00555E53 /* Constants.swift */,
 				D207D7242C06D24A00555E53 /* ContentView.swift */,
+				D207D7222C06D24A00555E53 /* RickAndMortyApp.swift */,
+				D207D7262C06D24D00555E53 /* Assets.xcassets */,
+				D207D7302C06D33500555E53 /* API */,
 				D207D7312C06D33E00555E53 /* Entities */,
 				D207D7322C06D34A00555E53 /* Enumerations */,
 				D207D7572C06FA9C00555E53 /* Extensions */,
 				D207D7282C06D24D00555E53 /* Preview Content */,
 				D207D7332C06D35500555E53 /* Repositories */,
-				D207D7222C06D24A00555E53 /* RickAndMortyApp.swift */,
 				D207D7352C06D36400555E53 /* Scenes */,
 				D207D7342C06D35D00555E53 /* UseCases */,
 				D207D7362C06D36F00555E53 /* View */,
@@ -164,6 +196,13 @@
 		D207D7342C06D35D00555E53 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				D2D9D1EF2C0A8CB900B580C2 /* CharacterDetailUseCase.swift */,
+				D2D9D1F12C0A8D4800B580C2 /* EpisodeDetailUseCase.swift */,
+				D2D9D1F32C0A8DE800B580C2 /* GetAllCharactersByIdUseCase.swift */,
+				D2D9D1F52C0A8E5E00B580C2 /* GetAllCharactersUseCase.swift */,
+				D2D9D1F72C0A8EC100B580C2 /* GetEpisodeUseCase.swift */,
+				D2D9D1F92C0A8F1800B580C2 /* GetLocationUseCase.swift */,
+				D2D9D1FB2C0A8F7000B580C2 /* LocationDetailUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -171,6 +210,9 @@
 		D207D7352C06D36400555E53 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				D2D9D1FD2C0A8FE000B580C2 /* CharacterDetail */,
+				D2D9D1FE2C0A8FEF00B580C2 /* CharacterList */,
+				D2D9D2092C0AB39300B580C2 /* ItemView */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -178,6 +220,8 @@
 		D207D7362C06D36F00555E53 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2D9D2062C0AADC800B580C2 /* Progress */,
+				D2D9D2032C0A9A5900B580C2 /* Image */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,8 +283,52 @@
 			isa = PBXGroup;
 			children = (
 				D241763D2C0909E10068567D /* LocationRemoteDataSource.swift */,
+				D2FBA46F2C094C2300C3A66C /* LocationRepository.swift */,
+				D2FBA4712C094C8700C3A66C /* LocationRepositoryImpl.swift */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		D2D9D1FD2C0A8FE000B580C2 /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9D1FF2C0A900800B580C2 /* CharacterDetailView.swift */,
+				D2D9D2012C0A93CE00B580C2 /* CharacterDetailViewModel.swift */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		D2D9D1FE2C0A8FEF00B580C2 /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				D2E356E92C0AF6D300456812 /* CharacterListViewModel.swift */,
+				D2E356EB2C0AFBF900456812 /* CharacterListView.swift */,
+			);
+			path = CharacterList;
+			sourceTree = "<group>";
+		};
+		D2D9D2032C0A9A5900B580C2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9D2042C0A9A6B00B580C2 /* RenderImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D2D9D2062C0AADC800B580C2 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9D2072C0AADD500B580C2 /* ProgressViewView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		D2D9D2092C0AB39300B580C2 /* ItemView */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9D20A2C0AB3B300B580C2 /* CharacterDetailItemView.swift */,
+			);
+			path = ItemView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,28 +401,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D9D2082C0AADD500B580C2 /* ProgressViewView.swift in Sources */,
+				D2D9D1FC2C0A8F7000B580C2 /* LocationDetailUseCase.swift in Sources */,
 				D241763C2C08F9460068567D /* ServerGetEpisodeResponse.swift in Sources */,
 				D207D7402C06DB7800555E53 /* Tabs.swift in Sources */,
+				D2FBA4722C094C8700C3A66C /* LocationRepositoryImpl.swift in Sources */,
 				D207D73A2C06D3D400555E53 /* ApiManager.swift in Sources */,
 				D207D7472C06F4D100555E53 /* Location.swift in Sources */,
 				D207D75E2C06FB9400555E53 /* CharacterRemoteDataSource.swift in Sources */,
 				D207D74C2C06F57200555E53 /* ServerCharactersResponse.swift in Sources */,
+				D2D9D1F02C0A8CB900B580C2 /* CharacterDetailUseCase.swift in Sources */,
 				D2D9E1632C07A48E004934AD /* CharacterRespository.swift in Sources */,
 				D207D7252C06D24A00555E53 /* ContentView.swift in Sources */,
+				D2E356EA2C0AF6D300456812 /* CharacterListViewModel.swift in Sources */,
 				D207D7232C06D24A00555E53 /* RickAndMortyApp.swift in Sources */,
+				D2D9D1F82C0A8EC100B580C2 /* GetEpisodeUseCase.swift in Sources */,
+				D2D9D2052C0A9A6B00B580C2 /* RenderImage.swift in Sources */,
 				D207D73E2C06DB4500555E53 /* CharacterStatus.swift in Sources */,
 				D207D74E2C06F6D100555E53 /* ServerOriginResponse.swift in Sources */,
 				D241763E2C0909E10068567D /* LocationRemoteDataSource.swift in Sources */,
+				D2FBA4702C094C2300C3A66C /* LocationRepository.swift in Sources */,
 				D207D7502C06F74200555E53 /* ServerLocationResponse.swift in Sources */,
+				D2D9D1F42C0A8DE800B580C2 /* GetAllCharactersByIdUseCase.swift in Sources */,
 				D207D7542C06F9DE00555E53 /* ServerGetLocationResponse.swift in Sources */,
 				D207D73C2C06DAA900555E53 /* HTTPError.swift in Sources */,
+				D2D9D1F22C0A8D4800B580C2 /* EpisodeDetailUseCase.swift in Sources */,
 				D2D9E1652C07A5CA004934AD /* CharacterRepositoryImpl.swift in Sources */,
 				D207D7382C06D38A00555E53 /* Constants.swift in Sources */,
+				D2D9D20B2C0AB3B300B580C2 /* CharacterDetailItemView.swift in Sources */,
 				D207D74A2C06F53900555E53 /* ServerBaseArrayResponse.swift in Sources */,
+				D2D9D2022C0A93CE00B580C2 /* CharacterDetailViewModel.swift in Sources */,
+				D2E356EC2C0AFBF900456812 /* CharacterListView.swift in Sources */,
 				D207D7452C06F42C00555E53 /* Episode.swift in Sources */,
 				D21DE3952C0847920033F379 /* EpisodeRepositoryImpl.swift in Sources */,
+				D2D9D2002C0A900800B580C2 /* CharacterDetailView.swift in Sources */,
 				D207D7562C06FA5400555E53 /* ServerResultsResponse.swift in Sources */,
+				D2D9D1F62C0A8E5E00B580C2 /* GetAllCharactersUseCase.swift in Sources */,
 				D2D9E1672C07B061004934AD /* EpisodeRemoteDataSource.swift in Sources */,
+				D2D9D1FA2C0A8F1800B580C2 /* GetLocationUseCase.swift in Sources */,
 				D207D7432C06F3B800555E53 /* Character.swift in Sources */,
 				D207D7592C06FAB300555E53 /* CapitalizeFirstLetter.swift in Sources */,
 				D21DE3932C08464E0033F379 /* EpisodeRepository.swift in Sources */,
